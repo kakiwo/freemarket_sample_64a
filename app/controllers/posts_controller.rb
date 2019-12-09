@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    
+    render 'step2'
   end
 
   def step1
