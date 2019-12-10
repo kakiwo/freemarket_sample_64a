@@ -70,12 +70,10 @@ var {
   font-style:normal;
   font-weight:normal;
 }
-
 ol,
 ul {
   list-style:none;
 }
-
 caption,
 th {
   text-align:left;
@@ -108,6 +106,9 @@ sub {
 input,
 textarea,
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family:inherit;
   font-size:inherit;
   font-weight:inherit;
