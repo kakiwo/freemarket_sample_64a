@@ -18,3 +18,5 @@
 
 public/uploads/*
 # image auto update
+
+.DS_Store

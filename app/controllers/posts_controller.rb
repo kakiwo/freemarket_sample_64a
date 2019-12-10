@@ -1,6 +1,9 @@
 class PostsController < ApplicationController
   def index
+    
+  end
 
+  def register
   end
 
   def step1

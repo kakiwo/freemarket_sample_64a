@@ -3,11 +3,11 @@
     %nav
       %ul.exp
         %li.exp__list
-          %a{href: "#"} プライバシーポリシー
+          = link_to('プライバシーポリシー', {})
         %li.exp__list
-          %a{:href => "#"} メルカリ利用規約
+          = link_to('メルカリ利用規約', {})
         %li.exp__list
-          %a{:href => "#"} 特定商取引に関する表記
+          = link_to('特定取引に関する表記', {})
     .logo
       %a{:href => "#"}
         =image_tag "logo_gray.svg",  size: "140x70", alt: "logo"
