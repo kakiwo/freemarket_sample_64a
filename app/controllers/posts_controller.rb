@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    
+    render 'register'
   end
 
   def register

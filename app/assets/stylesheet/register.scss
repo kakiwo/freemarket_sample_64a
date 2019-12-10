@@ -1,6 +1,4 @@
-@mixin hover {
-  opacity:0.7;
-}
+
 body{
   position: relative;
   font-family: 'Source Sans Pro', Helvetica , Arial, '游ゴシック体', 'YuGothic', 'メイリオ', 'Meiryo', sans-serif;
@@ -18,7 +16,7 @@ body{
     display: inline-block;
     cursor: pointer;
     &:hover{
-      @include hover;
+      opacity:0.7;
     }
   }
 }
@@ -51,7 +49,7 @@ body{
     text-align: center;
     transition: 0.2s;
     &:hover{
-      @include hover;
+      opacity:0.7;
     }
     .r-top-main-regist-mail-icon{
       position: absolute;
