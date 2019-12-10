@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    
+    render 'step2'
   end
 
   def register
@@ -20,5 +20,6 @@ class PostsController < ApplicationController
 
   def step5
   end
+
   
 end
